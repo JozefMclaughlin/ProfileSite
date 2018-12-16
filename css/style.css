@@ -1,0 +1,38 @@
+body{
+  margin: 0px;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+.profile {
+  align-items: center;
+}
+.profilepic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+
+}
+
+
+.education {
+  border: 1px solid black;
+  margin-top: 10px
+}
+
+.work {
+border: 1px solid black;
+}
+.outdoors {
+border: 1px solid black;
+justify-content: center;
+}
+.outdoor-content{
+  justify-content: center;
+  text-align: center;
+}
+.gaming {
+border: 1px solid black;
+}
