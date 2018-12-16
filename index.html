@@ -8,80 +8,227 @@
     <title>ProfileSite</title>
   </head>
   <body>
-    <div class="jumbotron">
-      <h1 class="display-4">Hello, world!</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-      <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="#">Features</a>
-              <a class="nav-item nav-link" href="#">Pricing</a>
-              <a class="nav-item nav-link disabled" href="#">Disabled</a>
-            </div>
-          </div>
-        </nav>
+    <div id="home" class="jumbotron">
+      <h1 class="display-4">Welcome to my Site</h1>
     </div>
+    <nav class="navbar navbar-expand ">
+
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#about">About</a>
+        <a class="nav-item nav-link" href="#education">Education</a>
+        <a class="nav-item nav-link" href="#work">Work Experience</a>
+        <a class="nav-item nav-link" href="#outdoors">Outdoors</a>
+        <a class="nav-item nav-link" href="#Hobbies">Hobbies</a>
+        </div>
+      </div>
+    </nav>
     <div class="container">
-      <div class="row">
+      <div id="about" class="row Intro">
         <div class="col-4">
           <div class="card profile">
             <img class="card-img-top profilepic" src="images/profilepic.jpg">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
         </div>
         <div class="col-8">
           <div class="card" >
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <h5 class="card-title">About this site</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="Card education">
+      <div id="education" class="Card education">
           <div class="card-body">
             <h5 class="card-title">Education</h5>
             <div class="row ">
-              <div class="col-4">Secondry</div>
-              <div class="col-4">Sixth Form</div>
-              <div class="col-4">Uni</div>
+              <div class="col-4 Secondary">
+                <h4>Seondary</h4>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Topic</th>
+                      <th scope="col">Type</th>
+                      <th scope="col">Grade</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Physics</td>
+                      <td>GCSE</td>
+                      <td>A*</td>
+                    </tr>
+                    <tr>
+                      <td>Chemistry</td>
+                      <td>GCSE</td>
+                      <td>A*</td>
+                    </tr>
+                    <tr>
+                      <td>Maths</td>
+                      <td>GCSE</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>Biology</td>
+                      <td>GCSE</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>English</td>
+                      <td>GCSE</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>History</td>
+                      <td>GCSE</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>Geography</td>
+                      <td>GCSE</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>R.E</td>
+                      <td>GCSE</td>
+                      <td>A</td>
+                    </tr>
+                    <tr>
+                      <td>ICT</td>
+                      <td>BTEC</td>
+                      <td>Distinction</td>
+                    </tr>
+                    <tr>
+                      <td>Sports</td>
+                      <td>GCSE</td>
+                      <td>Distinction</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="col-4 Sixth-Form">
+                <h4>Sixth Form</h4>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Topic</th>
+                      <th scope="col">Type</th>
+                      <th scope="col">Grade</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Maths</td>
+                      <td>A Level</td>
+                      <td>B</td>
+                    </tr>
+                    <tr>
+                      <td>Physics</td>
+                      <td>A Level</td>
+                      <td>C</td>
+                    </tr>
+                    <tr>
+                      <td>History</td>
+                      <td>A Level</td>
+                      <td>C</td>
+                    </tr>
+                    <tr>
+                      <td>Chemistry</td>
+                      <td>AS Level</td>
+                      <td>D</td>
+                    </tr>
+                    <tr>
+                      <td>Critical Thinking</td>
+                      <td>AS Level</td>
+                      <td>C</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="col-4 Uni">
+                <h4>University</h4>
+                <h5>University of Hull: BSc(Hons) Physics 2:2</h5>
+                <h5>Year 1</h5>
+                  <ul class="list-group">
+                    <li class="list-group-item">module 1</li>
+                    <li class="list-group-item">module 2</li>
+                    <li class="list-group-item">module 3</li>
+                    <li class="list-group-item">module 4</li>
+                    <li class="list-group-item">module 5</li>
+                    <li class="list-group-item">module 6</li>
+                  </ul>
+                  <h5>Year 2</h5>
+                  <ul class="list-group">
+                    <li class="list-group-item">module 1</li>
+                    <li class="list-group-item">module 2</li>
+                    <li class="list-group-item">module 3</li>
+                    <li class="list-group-item">module 4</li>
+                    <li class="list-group-item">module 5</li>
+                    <li class="list-group-item">module 6</li>
+                  </ul>
+                  <h5>Year 3</h5>
+                  <ul class="list-group">
+                    <li class="list-group-item">module 1</li>
+                    <li class="list-group-item">module 2</li>
+                    <li class="list-group-item">module 3</li>
+                    <li class="list-group-item">module 4</li>
+                    <li class="list-group-item">module 5</li>
+                    <li class="list-group-item">module 6</li>
+                  </ul>
+              </div>
           </div>
         </div>
       </div>
-      <div class="row work">
+      <div id="work"class="row work">
         <div class="col-6">
-          work experience
+          <h4>Work Experience</h4>
+          <div class="card-body">
+            <h6>Time/Duration of Employment:</h6>
+            <h6>Company Worked For:</h6>
+            <h6>Role Title:</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="card-body">
+            <h6>Time/Duration of Employment:</h6>
+            <h6>Company Worked For:</h6>
+            <h6>Role Title:</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </div>
         <div class="col-6">
-          projects
+          <h4>Projects</h4>
+          <div class="card-body">
+            <h6>Project Name</h6>
+            <h6>When It was Done</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="card-body">
+            <h6>Project Name</h6>
+            <h6>When It was Done</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="card-body">
+            <h6>Project Name</h6>
+            <h6>When It was Done</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </div>
 
       </div>
-      <div class="row outdoors">
+      <div id="outdoors" class="row outdoors">
         <div class="card outdoor-content" >
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="https://placeimg.com/640/480/nature" alt="First slide">
+                <img class="d-block w-100" src="images/10krun.jpg" alt="First slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="https://placeimg.com/640/480/nature" alt="Second slide">
+                <img class="d-block w-100" src="images/ben-nevis-view.jpeg" alt="Second slide">
               </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="https://placeimg.com/640/480/nature" alt="Third slide">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -95,14 +242,29 @@
           </div>
           <div class="card-body">
             <h5 class="card-title">Outdoors</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="row">
+
+            <p class="card-text col-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="col-4">
+              <h5>Achievments</h5>
+              <ul>
+                <li>Three Peaks</li>
+                <li>Hadrians Wall</li>
+                <li>DofE Expidition</li>
+                <li>Bristol 10K</li>
+                <li>Cardiff 10K</li>
+                <li>Ashton Court 10K</li>
+              </ul>
+            </div>
+          </div>
           </div>
         </div>
-      </div>
-      <div class="row gaming">
-        Gaming
+      <div id="Hobbies" class="row hobbies">
+        <h4>Hobbies</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </div>
+
   </body>
   <!--JS-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
