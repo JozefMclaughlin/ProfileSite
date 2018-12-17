@@ -1,6 +1,7 @@
 body{
   margin: 0px;
   background-color: #fafafa;
+  box-sizing: border-box;
 }
 
 .jumbotron{
@@ -62,6 +63,17 @@ background-color: white;
 }
 
 .hobbies {
-border: 1px solid black;
-background-color: white;
+  justify-content: center;
+  border: 1px solid black;
+  background-color: white;
+  padding: 5px;
+}
+
+.hobbies div {
+  text-align: center;
+
+}
+.hobbies img{
+  width: 30vw;
+  height: 300px;
 }
