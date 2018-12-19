@@ -77,3 +77,10 @@ background-color: white;
   width: 30vw;
   height: 300px;
 }
+
+
+@media (max-width: 991px)  {
+  .profilepic{
+    width: 100%;
+  }
+}
